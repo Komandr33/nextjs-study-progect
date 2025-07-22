@@ -26,7 +26,7 @@ export const CharacterCard = (props: PropsType) => {
 
   return (
     <Card name={name}>
-      <Status status={status} src={statusImages[status]} />
+      <Status src={statusImages[status]} />
       <Link href={`/characters/${id}`}>
         <ImageBlock src={image} alt={name} width={300} height={300} priority />
       </Link>
